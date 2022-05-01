@@ -3,9 +3,14 @@ import './styles.css'
 import Cart from './components/Cart'
 import Home from './components/Home'
 import Products from './components/Products'
+import { useCart } from 'react-use-cart';
+import { BsFillCartCheckFill } from "react-icons/bs";
 
 
 function App() {
+
+const {totalItems} = useCart();
+
   return (
 <Router>
     <div className="App">
@@ -14,7 +19,7 @@ function App() {
             {" "}
             <Link to="/Products">Products</Link>
             {" "}
-            <Link to="/Cart">Shoppingcart</Link>
+            <Link to="/Cart"><BsFillCartCheckFill/>{(totalItems === 0 ? null : (totalItems))}</Link>
         </div>
 
     <Routes>
