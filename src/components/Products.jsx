@@ -4,7 +4,7 @@ import data from './Productdata'
 const Products = () => {
   return (
 <div>
-    <h2>Exempel på produkter</h2>
+    <h2>Examples of products</h2>
         <div id="product-container">
             {data.Items.map((product) => {
             return (

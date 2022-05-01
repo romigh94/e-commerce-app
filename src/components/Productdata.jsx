@@ -51,13 +51,12 @@ const data = {
         {
             id: 7,
             name: "Mobilskal",
-            desc: "A beautiful bonsai cherry tree with gnarled stem in fiberglass.",
             price: 199,
             image: img7
         },
         {
             id: 8,
-            name: "Ryggsäck med inbyggd laddare",
+            name: "Ryggsäck",
             price: 499,
             image: img8
         },
