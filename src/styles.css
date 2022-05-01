@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .HomePage {
     margin: 0px auto;
     text-align: center;
@@ -7,14 +11,19 @@
     background-position: center;
     background-repeat: no-repeat;
 
-    font-family: sans-serif
+    font-family: sans-serif;
+
 }
+
 
 h1 {
     font-size: 40px;
+    color: white;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
 h2 {
     text-align: center;
+    font-size: 32px;
 }
 
 .nav-container {
@@ -34,9 +43,19 @@ a:hover {
     color: lightgrey;
 }
 
-.products {
-    display: grid;
-    align-items: center;
-    justify-content: center;
+.product-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
 
+    /*
+    float:left;
+    position: absolut;
+    right: -20%;
+    */
+  }
+
+button {
+    width: 50%;
 }
