@@ -1,0 +1,15 @@
+.HomePage {
+    margin: 40px auto;
+    text-align: center;
+    padding: 200px;
+    background-image: url('productImages/background-image.jpg');
+    background: cover;
+    width: 70%;
+
+    font-family: sans-serif
+}
+
+h1 {
+    font-size: 40px;
+}
+
