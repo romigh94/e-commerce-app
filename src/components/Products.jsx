@@ -19,7 +19,7 @@ const { addItem } = useCart();
                     width="220" height="200" className="item-img" />
                     <h3>{product.name}</h3>
                     <p className="item-price">{product.price} kr</p>
-                <button className="to-cart-btn">Add to cart</button>
+                <button className="to-cart-btn" onClick={() => addItem(product)}>Add to cart</button>
                 </div>
           )
         })}
