@@ -5,10 +5,10 @@
 .HomePage {
     margin: 0px auto;
     text-align: center;
-    padding: 200px;
+    padding: 235px;
     background-image: url('productImages/background-image.jpg');
     background: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
 
     font-family: sans-serif;
@@ -48,6 +48,8 @@ a:hover {
     max-width: 300px;
     text-align: center;
     padding: 20px;
+    margin: auto;
+
 
     /*
     float:left;
@@ -58,4 +60,9 @@ a:hover {
 
 button {
     width: 50%;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
 }

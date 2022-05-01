@@ -11,14 +11,14 @@ const {addItem} = useCart();
   return (
 <div>
     <h2>Examples of products</h2>
-        <div id="product-container">
+        <div className="product-container">
             {data.Items.map((product) => {
             return (
                 <div key={product.id} item={product} className="product-card">
                     <img
                         src={product.image}
                         alt={product.name}
-                        width="200"
+                        width="220"
                         height="200"
                         className="item-img"
                         ></img>
