@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import './styles.css'
 import Cart from './components/Cart'
 import Home from './components/Home'
 import Products from './components/Products'
@@ -10,7 +11,9 @@ function App() {
     <div className="App">
         <div className="nav-container">
             <Link to="/">Home</Link>
+            {" "}
             <Link to="/Products">Products</Link>
+            {" "}
             <Link to="/Cart">Shoppingcart</Link>
         </div>
 
